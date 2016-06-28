@@ -1,6 +1,6 @@
 {
   "name": "fastboot-fs-notifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Fastboot App Server notifier for the Filesystem",
   "main": "index.js",
   "scripts": {
