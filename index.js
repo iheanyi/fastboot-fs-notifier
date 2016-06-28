@@ -10,6 +10,8 @@ class FSNotifier {
   }
 
   subscribe(notify) {
+    // Debounce Notify so it's only called once, filesystem change will shoot
+    // off multiple notifiers otherwise.
     this.notify = debounce(notify, 200);
 
     return this.initWatcher();
