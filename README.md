@@ -13,5 +13,5 @@ let server = new FastBootAppServer({
 });
 ```
 
-When the notifier is started, it will use the Node Filesystem's (watch
-function)[https://nodejs.org/docs/latest/api/fs.html#fs_fs_watch_filename_options_listener] to watch the target directory, which should be your directory for your Ember app. On new releases of the application, it will notify the Fastboot App Server and let it know that files have changed and it should be restarted. 
+When the notifier is started, it will use the Node Filesystem's [watch
+function](https://nodejs.org/docs/latest/api/fs.html#fs_fs_watch_filename_options_listener) to watch the target directory, which should be your directory for your Ember app. On new releases of the application, it will notify the Fastboot App Server and let it know that files have changed and it should be restarted. 
