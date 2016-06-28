@@ -21,7 +21,6 @@ class FSNotifier {
           this.ui.writeError('error while watching target directory');
           reject(err);
         } else if (event === 'change') {
-          this.ui.writeLine('File Changed: ' + filename);
           this.notify();
           resolve();
         }
