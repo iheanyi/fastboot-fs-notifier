@@ -1,4 +1,4 @@
-# fastboot-fs-notifier
+# Fastboot FS Notifier
 A Fastboot App Server Notifier for watching files on the local disk.
 
 ```javascript
