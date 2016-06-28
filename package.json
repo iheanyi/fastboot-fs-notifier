@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/iheanyi/fastboot-fs-notifier/issues"
   },
-  "homepage": "https://github.com/iheanyi/fastboot-fs-notifier#readme"
+  "homepage": "https://github.com/iheanyi/fastboot-fs-notifier#readme",
+  "dependencies": {
+    "debounce": "^1.0.0"
+  }
 }
