@@ -1,0 +1,25 @@
+{
+  "name": "fastboot-fs-notifier",
+  "version": "0.1.0",
+  "description": "A Fastboot App Server notifier for the Filesystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iheanyi/fastboot-fs-notifier.git"
+  },
+  "keywords": [
+    "ember",
+    "fastboot",
+    "notifier",
+    "fs"
+  ],
+  "author": "Iheanyi Ekechukwu <iekechukwu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iheanyi/fastboot-fs-notifier/issues"
+  },
+  "homepage": "https://github.com/iheanyi/fastboot-fs-notifier#readme"
+}
